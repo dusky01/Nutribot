@@ -1,9 +1,9 @@
 # 🌿 NutriBot - AI-Powered Personalized Nutrition App 🥗
 
 ![NutriBot](https://img.shields.io/badge/NutriBot-AI%20Nutrition%20App-blue?style=for-the-badge)
-![GitHub license](https://img.shields.io/github/license/your-repo/nutribot?style=for-the-badge)
-![GitHub stars](https://img.shields.io/github/stars/your-repo/nutribot?style=for-the-badge)
-![GitHub issues](https://img.shields.io/github/issues/your-repo/nutribot?style=for-the-badge)
+![GitHub license]
+![GitHub stars]
+![GitHub issues]
 
 ---
 
