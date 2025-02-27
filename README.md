@@ -8,7 +8,7 @@
 ---
 
 ## 🌟 About NutriBot
-**NutriBot** is an **AI-powered nutrition app** that helps users improve their dietary habits by offering **personalized food recommendations** based on **biomarkers, DNA analysis, and lifestyle data**. 
+**NutriBot** is an **AI-powered nutrition app** that helps users improve their dietary habits by offering **personalized food recommendations** based on **biomarkers, DNA analysis, and lifestyle data**.
 
 It promotes **sustainable eating** and connects users with **local farmers** for fresh, organic, and healthy food choices.
 
@@ -44,3 +44,71 @@ It promotes **sustainable eating** and connects users with **local farmers** for
 NutriBot follows the **C4 Model** for a **well-structured architecture**.  
 
 ### 🏗 **System Context**
+```
+[User] -> [NutriBot System]
+[NutriBot System] -> [Diagnostic Centers] : Retrieves biomarker data
+[NutriBot System] -> [Farmers] : Promotes sustainable food choices
+[NutriBot System] -> [APIs] : Fetches health insights
+```
+
+---
+
+## 🛠️ Installation & Setup  
+Clone the repository:
+
+```sh
+git clone https://github.com/your-repo/nutribot.git
+cd nutribot
+```
+
+### **Backend Setup**  
+1️⃣ Install dependencies:
+```sh
+pip install -r requirements.txt
+```
+2️⃣ Run the backend:
+```sh
+uvicorn main:app --reload
+```
+
+### **Frontend Setup**  
+1️⃣ Install dependencies:
+```sh
+npm install
+```
+2️⃣ Run the frontend:
+```sh
+npm run dev
+```
+
+---
+
+## 🌍 API Endpoints  
+| **Endpoint**          | **Method** | **Description** |
+|----------------------|-----------|----------------|
+| `/api/auth/login`    | `POST`    | User login |
+| `/api/user/profile`  | `GET`     | Get user profile data |
+| `/api/food/recommend` | `POST`   | Get personalized meal recommendations |
+| `/api/dna/upload`    | `POST`    | Upload DNA report |
+| `/api/payments`      | `POST`    | Process subscription payments |
+
+---
+
+## 🏗️ Contribution  
+🔹 Fork the repository  
+🔹 Create a new branch (`git checkout -b feature-branch`)  
+🔹 Commit changes (`git commit -m "Add new feature"`)  
+🔹 Push to branch (`git push origin feature-branch`)  
+🔹 Open a **Pull Request**  
+
+---
+
+## 📜 License  
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.  
+
+---
+
+## 📬 Contact  
+📧 **Email:** support@nutribot.com  
+🌐 **Website:** [www.nutribot.com](https://www.nutribot.com)  
+🐦 **Twitter:** [@nutribotAI](https://twitter.com/nutribotAI)  
